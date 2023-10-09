@@ -21,11 +21,14 @@ for (let i=0; i<myStr.length; i++){
 /*
 let address = prompt(`Введіть електронну адресу`);
 
-if (address.includes('@') && !address.startsWith('@') && !address.endsWith('@')) {
+if (address.includes('@') && address.includes('.') && !address.includes(' ') && !address.includes('@.') && !address.startsWith('@') && !address.startsWith('@, 1') && !address.endsWith('@') && !address.endsWith('@, 1')) {
 	console.log(`Адреса введена правильно`);
-} else {
+	alert(`Адреса введена правильно`);
+}
 
+else {
 	console.log(`Адреса введена неправильно`);
+	alert(`Адреса введена неправильно`);
 }
 */
 
